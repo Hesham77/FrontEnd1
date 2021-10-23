@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+/*general*/
+h1 , h2 , h3 , h4 , h5 , h6 {
+    
+    font-family: montserrat,sans-serif;
+    }
+    button
+    {
+        font-family: inherit;
+    }
+    a
+    {
+        text-decoration: none;
+    }
+    .section-header{
+        /* background:lightblue; */
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .section-header .section-title{
+        /* background:lightblue; */
+        text-transform:capitalize;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .section-header .line{
+        
+        background-color:#6195ff;
+        display: block;
+        width:60px;
+        height:5px;
+        margin: auto;
+    }
+    .padding-y{
+        padding: 50px 0;
+    }
+    
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .touch-content{
+        overflow: hidden;
+        background:#fff;
+    }
+    .touch-item{
+        /* border-top: 1px solid red; */
+        width: 30%;
+        float: left;
+        margin:15px 0;
+    }
+    .touch-item.mg{
+         /* border-top: 1px solid red; */
+         
+         /* background-color:red; */
+         margin: 0 15px;
+    }
+    
+    .touch-item .icon{
+        color:#6195ff;
+        margin-bottom: 10px;;
+    }
+    .touch-desc{
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    .touch-text{
+        color:#999;
+    }
+    .form-item{
+        overflow: hidden;
+    }
+    .form-item .item{
+        border-top: 1px solid red;
+        width:45%;
+        float: left;
+        height: 30px;
+        padding: 0 5px;
+    }
+    input{
+        background-color: #e0e0e0;
+        border:0;
+    }
+    .form-container{
+        /* background-color:lightblue; */
+        width:70%;
+        margin:auto;
+    }
+    .form-item .item.mg{
+        /* background-color:lightblue; */
+        margin-left: 2%;
+    }
+    .subject{
+        background-color:lightblue;
+        display:block;
+        width:92%;
+        height:30px;
+        margin: 10px 0 ;
+        padding: 0 5px;
+    }
+    textarea{
+        background-color:lightcoral;
+        padding:5px ;
+        width: 92%;
+        border:none;
+    }
+    .touch-bt{
+        background-color:#7ba7ff;
+        border-radius: 50%;
+        display:block;
+        width:10%;
+        height:75px;
+        margin: auto;
+    }
